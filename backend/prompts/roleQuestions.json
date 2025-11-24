@@ -1,0 +1,17 @@
+{
+  "software_engineer": [
+    "Tell me about a challenging coding bug you solved.",
+    "Which programming languages and frameworks do you use most often?",
+    "How do you ensure the quality and readability of your code?"
+  ],
+  "data_analyst": [
+    "Tell me about a project where you turned raw data into useful insights.",
+    "How do you handle missing or inconsistent data?",
+    "Which tools and languages do you prefer for data analysis and why?"
+  ],
+  "sales_associate": [
+    "Tell me about a time you handled a difficult customer.",
+    "How do you approach understanding a customer's needs?",
+    "What does good customer service mean to you?"
+  ]
+}

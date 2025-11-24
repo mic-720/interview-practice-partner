@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Interview Practice Partner</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <h1>Interview Practice Partner</h1>
+    <p class="subtitle">Practice interviews with AI – Voice or Chat</p>
+
+    <div class="controls">
+      <label for="role">Select Role:</label>
+      <select id="role">
+        <option value="software_engineer">Software Engineer</option>
+        <option value="data_analyst">Data Analyst</option>
+        <option value="sales_associate">Sales Associate</option>
+      </select>
+    </div>
+
+    <div id="chat" class="chat-box"></div>
+
+    <div class="input-row">
+      <input id="messageInput" placeholder="Type your answer here..." />
+      <button id="sendBtn">Send</button>
+      <button id="voiceBtn">🎤 Start Voice</button>
+    </div>
+
+    <button id="endBtn" class="end-btn">End Interview & Get Feedback</button>
+
+    <p class="hint">
+      Hint: You can speak or type your answers. Click "End Interview" to get feedback.
+    </p>
+  </div>
+
+  <!-- Feedback Modal -->
+  <div id="feedbackOverlay" class="modal-overlay hidden">
+    <div class="modal">
+      <h2>Interview Feedback</h2>
+      <pre id="feedbackContent"></pre>
+      <button id="closeFeedbackBtn">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
